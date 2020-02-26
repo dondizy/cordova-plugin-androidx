@@ -1,6 +1,6 @@
 var PLUGIN_NAME = "cordova-plugin-androidx";
 var enableAndroidX = "android.useAndroidX=true";
-var enableJetifier = "android.enableJetifier=true";
+var enableJetifier = "android.enableJetifier=false";
 var gradlePropertiesPath = "./platforms/android/gradle.properties";
 
 var deferral, fs, path;
